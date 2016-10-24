@@ -79,4 +79,16 @@
         android:textColor="#fff"
         />
 
+    <Button
+        android:id="@+id/btn_submit_edit_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Atualizar Contato"
+        android:textColor="#fff"
+        android:visibility="gone"
+        tools:layout_marginTop="10dp"
+        tools:visibility="visible"
+        />
+
 </LinearLayout>

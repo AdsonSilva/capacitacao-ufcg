@@ -1,10 +1,12 @@
 package br.edu.ufcg.embedded.aula10.model;
 
+import java.io.Serializable;
+
 /**
  * Created by huawei on 24/10/16.
  */
 
-public class User {
+public class User implements Serializable{
 
     private String id;
     private String email;
